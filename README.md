@@ -73,7 +73,7 @@ privasea/acceleration-node-beta:latest ./node-calc new_keystore
 
 After successful creation of the wallet, the program will display information similar to the following:
 
-`node address: 0xf07c3eF23ae7BEb8CD8bA5fF546E35Fd4b332B34
+`node address: 0xf07c3eF23ae7BEb8CD8bA5fF546E35Fd4b332B34`
 # This is the node address you generated, used for linking in the dashboard 
 node filename: keystore:///app/config/UTC--2025-01-06T06-11-07.485797065Z--f07c3`
 
