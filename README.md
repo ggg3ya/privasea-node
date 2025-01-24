@@ -11,38 +11,8 @@
 `If Docker is already installed, you can skip this step.`
 
 #### 1. Installation Commands
-
-- Install necessary dependencies
 ```
-sudo apt update && sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
-```
-
-- Add Docker's official GPG key
-```
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-```
-- Add Docker's official repository
-```
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-```
-- Update APT package index
-```
-sudo apt update
-```
-- Install Docker
-```
-sudo apt install -y docker-ce
-```
-
-#### 2. Verify if Docker is installed successfully
-```
-sudo docker --version
-```
-
-#### 3. Start and enable Docker service
-```
-sudo systemctl start docker
-sudo systemctl enable docker
+source <(wget -O - https://raw.githubusercontent.com/ggg3ya/installation/main/docker.sh)
 ```
 ## 3. Pull docker mirroring
 First pull the docker image using the following command:
